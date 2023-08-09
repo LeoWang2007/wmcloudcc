@@ -60,7 +60,8 @@ a {
 	justify-content: center;
 	align-items: center;
 	height: 80vh;
-	background-color: pink;
+	background: url("img/banner_static.jpg");
+	background-size: cover;
 	overflow: hidden;
 }
 
