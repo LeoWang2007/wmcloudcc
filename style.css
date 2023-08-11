@@ -26,7 +26,7 @@ a {
 	top: 0;
 	height: 64px;
 	line-height: 0;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.4);
 	padding: 10px;
 	box-shadow: 0 5px 15px rgba(30, 30, 30, 0.4);
 	user-select: none;
@@ -51,7 +51,7 @@ a {
 }
 
 .bodyRoot {
-	margin-top: 84px;
+	/*margin-top: 84px;*/
 }
 
 .banner {
@@ -59,9 +59,8 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
-	background: url("img/banner_static.jpg");
-	background-size: cover;
+	height: 95vh;
+	background-color: pink;
 	overflow: hidden;
 }
 
@@ -92,6 +91,7 @@ h2.down {
 
 .banner h2 {
 	position: absolute;
+	margin-top: 84px;
 	width: 75%;
 	font-size: 40px;
 	color: #fff;
@@ -168,7 +168,8 @@ h2.down {
 	margin: 15px 0;
 }
 
-a.btnDownload {
+a.btnDownload, 
+div.btnDownload {
 	margin: 0 20px auto;
 	width: 150px;
 	height: 40px;
@@ -180,6 +181,10 @@ a.btnDownload {
 	color: white;
 	user-select: none;
 	moz-user-select: none;
+}
+
+div.disabled {
+	background-color: gray;
 }
 
 .footer {
