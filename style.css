@@ -60,7 +60,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	height: 95vh;
-	background: url("//cdn.jsdelivr.net/gh/LeoWang2007/wmcloudcc/img/banner_static.jpg");
+	background: url("/img/banner_static.jpg");
 	background-size: cover;
 	overflow: hidden;
 }
