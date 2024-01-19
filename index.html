@@ -13,8 +13,9 @@
 	<div class="w header"><img src="./img/main-logo.png"><!-- <h1>这是一个会成长的网站，不信你看！</h1> --></div>
 	<div class="w bodyRoot">
 		<div class="w banner">
-			<video src="//ghproxy.com/https://raw.githubusercontent.com/LeoWang2007/wmcloudcc/main/img/banner.mp4"
-				autoplay muted loop></video>
+			<video
+				src="http://ghproxy.homeboyc.cn/https://raw.githubusercontent.com/LeoWang2007/wmcloudcc/main/img/banner.mp4"
+				autoplay muted loop preload></video>
 			<h2 id="bannerText">或许我这辈子的梦想都挺蠢的，但这又有什么呢。人总是每过一段时间要寻找一下自己存在的意义不是吗？
 				<p>——果糖含量</p>
 			</h2>
@@ -52,23 +53,24 @@
 		<div class="footer">
 			<p>Copyright ©2023 wmcloud.cc All Rights Reserved. </p>
 		</div>
-		<script type="text/javascript">
-			var textList = [
-				["或许我这辈子的梦想都挺蠢的，但这又有什么呢。人总是每过一段时间要寻找一下自己存在的意义不是吗？", "果糖含量"],
-				["看东西只有用心才能看得清楚，重要的东西用眼睛是看不见的。", "《小王子》"],
-				["梦想可以大，第一步总是小的。", "影视飓风 Tim"],
-				["对这世界的不公，先学会忍受，再学会绽放。", "白雨潮"],
-				["提刀而立，为之四顾，为之踌躇满志，善刀而藏之。", "《庄子 · 内篇 · 养生主》"]
-			]
-			if (localStorage.getItem('visitedUser'))
-				var randomIndex = Math.floor(Math.random() * textList.length)
-			else {
-				var randomIndex = 0
-				localStorage.setItem("visitedUser", true)
-			}
-			var bannerText = document.getElementById("bannerText")
-			bannerText.innerHTML = `${textList[randomIndex][0]}<p>——${textList[randomIndex][1]}</p>`
-		</script>
+	</div>
+	<script type="text/javascript">
+		var textList = [
+			["或许我这辈子的梦想都挺蠢的，但这又有什么呢。人总是每过一段时间要寻找一下自己存在的意义不是吗？", "果糖含量"],
+			["看东西只有用心才能看得清楚，重要的东西用眼睛是看不见的。", "《小王子》"],
+			["梦想可以大，第一步总是小的。", "影视飓风 Tim"],
+			["对这世界的不公，先学会忍受，再学会绽放。", "白雨潮"],
+			["提刀而立，为之四顾，为之踌躇满志，善刀而藏之。", "《庄子 · 内篇 · 养生主》"]
+		]
+		if (localStorage.getItem('visitedUser'))
+			var randomIndex = Math.floor(Math.random() * textList.length)
+		else {
+			var randomIndex = 0
+			localStorage.setItem("visitedUser", true)
+		}
+		var bannerText = document.getElementById("bannerText")
+		bannerText.innerHTML = `${textList[randomIndex][0]}<p>——${textList[randomIndex][1]}</p>`
+	</script>
 </body>
 
 </html>
