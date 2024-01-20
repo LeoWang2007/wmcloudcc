@@ -171,6 +171,12 @@ h2.down {
 	margin: 20px;
 }
 
+@media screen and (max-width: 1000px) {
+	.productShow .sparkBoardLogo {
+		width: 270px;
+	}
+}
+
 .productShow .ataPlusLogo {
 	width: 100px;
 }
