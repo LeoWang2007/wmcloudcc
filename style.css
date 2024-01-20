@@ -162,8 +162,13 @@ h2.down {
 	/* box-shadow: none; */
 }
 
-.productShow .sparkBoardLogo {
+.productShow .furryhubLogo {
 	width: 200px;
+}
+
+.productShow .sparkBoardLogo {
+	width: 360px;
+	margin: 20px;
 }
 
 .productShow .ataPlusLogo {
@@ -179,8 +184,20 @@ h2.down {
 .productShow h4 {
 	font-size: 23px;
 	font-weight: 400;
+}
+
+.productShow h4.ataPlus {
 	color: #3cbaec;
 }
+
+.productShow h4.furryhub {
+	background: rgb(0, 180, 255);
+	background: linear-gradient(135deg, rgba(0, 180, 255, 1) 0%, rgba(166, 111, 255, 1) 50%, rgba(255, 111, 130, 1) 100%);
+	background-size: 20% 100%;
+	color: transparent;
+	background-clip: text;
+}
+
 
 .productShow p {
 	color: #989898;
