@@ -155,8 +155,10 @@ h2.down {
 	max-width: 600px;
 	width: 95%;
 	border-radius: 10px;
-	box-shadow: 5px 5px 30px #bbbbbb;
+	box-shadow: 5px 5px 30px rgba(187, 187, 187, 0.6);
 	background: white;
+
+	transition: all .5s ease-out;
 }
 
 .productShow.special {
@@ -226,6 +228,13 @@ div.btnDownload {
 	color: white;
 	user-select: none;
 	-moz-user-select: none;
+
+	transition: all .5s ease-out;
+}
+
+a.btnDownload:hover,
+div.btnDownload:hover {
+	box-shadow: -1px -1px 10px 0 rgba(0, 200, 255, 0.5), 1px 1px 10px 0 rgba(146, 254, 257, 0.5);
 }
 
 div.disabled {
