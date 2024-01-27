@@ -162,6 +162,10 @@ h2.down {
 	transition: all .5s ease-out;
 }
 
+.productShow.wide {
+	max-width: none;
+}
+
 .productShow.special {
 	background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 	/* box-shadow: none; */
@@ -215,8 +219,7 @@ h2.down {
 	margin: 15px 0;
 }
 
-a.btnDownload,
-div.btnDownload {
+.productShow .btnDownload {
 	margin: 0 20px auto;
 	width: 150px;
 	height: 40px;
@@ -233,12 +236,11 @@ div.btnDownload {
 	transition: all .5s ease-out;
 }
 
-a.btnDownload:hover,
-div.btnDownload:hover {
+.productShow .btnDownload.btnDownload:hover:not(.disabled) {
 	box-shadow: -1px -1px 10px 0 rgba(0, 200, 255, 0.5), 1px 1px 10px 0 rgba(146, 254, 257, 0.5);
 }
 
-div.disabled {
+.productShow .btnDownload.disabled {
 	background: gray;
 }
 
@@ -251,4 +253,14 @@ div.disabled {
 .footer p {
 	font-size: 15px;
 	color: #989898;
+}
+
+.productShow.yuque {
+	background: #ebfaf2;
+	background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.3) 40%),
+		url("img/yuque.svg") -40% bottom / 50% 90% no-repeat;
+}
+
+.productShow .btnDownload.yuque-btn {
+	background: #6cce6a;
 }
