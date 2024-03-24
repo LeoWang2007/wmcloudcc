@@ -17,6 +17,11 @@ a {
 	text-decoration: none;
 }
 
+@font-face {
+	font-family: HY-WenHei;
+	src: url("res/zh-cn.ttf");
+}
+
 .w {
 	width: 100%;
 }

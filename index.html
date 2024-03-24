@@ -71,6 +71,7 @@
 	</div>
 	<script type="text/javascript">
 		var textList = [
+			["<span style='font-family: HY-WenHei;font-size: larger;'>创造属于我们的，无与伦比的世界</span>", ""],
 			["或许我这辈子的梦想都挺蠢的，但这又有什么呢。人总是每过一段时间要寻找一下自己存在的意义不是吗？", "果糖含量"],
 			["看东西只有用心才能看得清楚，重要的东西用眼睛是看不见的。", "《小王子》"],
 			["梦想可以大，第一步总是小的。", "影视飓风 Tim"],
@@ -84,7 +85,10 @@
 			localStorage.setItem("visitedUser", true)
 		}
 		var bannerText = document.getElementById("bannerText")
-		bannerText.innerHTML = `${textList[randomIndex][0]}<p>——${textList[randomIndex][1]}</p>`
+		if (randomIndex != 0)
+			bannerText.innerHTML = `${textList[randomIndex][0]}<p>——${textList[randomIndex][1]}</p>`
+		else
+			bannerText.innerHTML = `${textList[randomIndex][0]}<p>${textList[randomIndex][1]}</p>`
 	</script>
 </body>
 
