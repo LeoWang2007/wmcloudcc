@@ -19,7 +19,7 @@ a {
 
 @font-face {
 	font-family: HY-WenHei;
-	src: url("res/zh-cn.ttf");
+	src: url("https://furryfurryhub.cn/style/fonts/zh-cn.ttf");
 }
 
 .w {
@@ -104,6 +104,7 @@ h2.down {
 	color: #fff;
 	font-weight: 300;
 	text-shadow: 2px 2px 3px rgba(25, 25, 25, 0.8);
+	user-select: none;
 }
 
 @media screen and (max-width: 1000px) {
