@@ -15,6 +15,11 @@ body {
 
 a {
 	text-decoration: none;
+	color: inherit;
+}
+
+.footer a:hover {
+	text-decoration: underline;
 }
 
 @font-face {
@@ -260,6 +265,11 @@ h2.down {
 .footer p {
 	font-size: 15px;
 	color: #989898;
+}
+
+.footer img {
+	width: 15px;
+	vertical-align: sub;
 }
 
 .productShow.yuque {
