@@ -1,99 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <title>果冻岛 · 热爱，创造无限可能</title>
-    <meta name="description" property="og:description"
-        content="果冻岛致力于创意应用开发与创意输出，以用户需求与文化理念为中心，为用户提供不拘一格的全新产品体验。果冻岛以开放、包容态度尊重每一种文化，坚持输出原创创意产品，创造属于每个人的世界观。">
-    <meta name="keywords" content="果冻岛,wmcloud,果冻岛社区,果冻岛教育,创意,热爱,furry,大世界,信息化,低代码,米哈游,原神,崩坏,崩坏·星穹铁道,崩铁,绝区零,南财高">
-    <meta name="og:image" property="og:image" content="https://spark.wmcloud.cc/new-seo-icon.png">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="index.js"></script>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>瓜云科技 | WatermelonCloud - 用创意改变生活</title>
+
+    <meta content="瓜云科技,WatermelonCloud,西瓜云软件,瓜云科技" data-react-helmet="true" name="keywords">
+    <meta content="瓜云科技" name="description">
+    <link href="img/WatermelonCloud-256x256.ico" rel="icon" type="image/png">
+    <!--    <link href="css/plugins.css" rel="stylesheet" type="text/css">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/theme.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://cdn.staticfile.org/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="css/et-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/themify-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/red.css" id="color-scheme" rel="stylesheet" type="text/css"> -->
+    <link href="css/position.css" id="position-scheme" rel="stylesheet" type="text/css">
+    <link href="css/size.css" id="size-scheme" rel="stylesheet" type="text/css">
+    <!--    <script src="res/monitor.min.js"></script>-->
+    <script src="https://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="css/home.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="w header"><img src="img/new-main-logo.png"><!-- <h1>这是一个会成长的网站，不信你看！</h1> --></div>
-    <div class="w bodyRoot">
-        <div class="w banner">
-            <video src="https://spark.wmcloud.cc/banner.mp4" autoplay muted loop preload x5-playsinline
-                playsinline="playsinline" webkit-playsinline></video>
-            <h2 id="bannerText">或许我这辈子的梦想都挺蠢的，但这又有什么呢。人总是每过一段时间要寻找一下自己存在的意义不是吗？
-                <p>——果糖含量</p>
-            </h2>
-            <div class="bannerMask"></div>
+<body style="opacity: 1;">
+
+    <!-- Start Header -->
+    <nav class="navbar navbar-default fullscreen transparent">
+        <div class="container">
+
+            <div class="navbar-header">
+                <div class="container">
+                    <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed"
+                        data-target="#navbar" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img alt="#" class="logo-light" src="img/logo-light.png"><img
+                            alt="#" class="logo-dark" src="img/logo-dark.png"></a>
+                </div>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbar">
+                <div class="container">
+                    <ul class="nav navbar-nav menu-right">
+                        <li class="active-item">
+                            <a href="#">首页</a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">疫情防控</a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">瓜云教育</a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">关于西瓜</a>
+                        </li>
+
+                        <li>
+                            <a href="#">管理后台</a>
+                        </li>
+
+                        <li>
+                            <a href="#" id="btn-login"><span class="btn-span">UnionSign登录</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
-        <h2 class="down">向下，探索更多内容</h2>
-        <div class="creative">
-            <div class="selectionHeader">
-                <h2>有创意，多酷!</h2>
-                <span class="underline"></span>
-            </div>
-            <div class="productShow">
-                <img class="furryhubLogo" src="//furryfurryhub.cn/images/logo.png">
-                <h4 class="furryhub">FurryHub</h4>
-                <h3>兽人文化综合创意部落</h3>
-                <a href="//furryfurryhub.cn" class="btnDownload">快点，就差你咯~</a>
-            </div>
-            <div class="productShow">
-                <img class="sparkBoardLogo" src="img/sparkBoard-special.png">
-                <h3>誓做最可爱的系信息聚合平台o(〃＾▽＾〃)o</h3>
-                <a href="//spark.wmcloud.cc" class="btnDownload">访问网页版</a>
-            </div>
-            <div class="productShow">
-                <img class="ataPlusLogo" src="img/ataPlus.png">
-                <h4 class="ataPlus">ATAPlus</h4>
-                <h3>ATA高效练习，不在话下！</h3>
-                <p>全自动去除ATA模拟盘30分钟最低交卷时长，助你高效练题</p>
-                <a href="#" class="btnDownload">下载客户端</a>
-            </div>
-            <div class="productShow yuque">
-                <h3>我的语雀花园</h3>
-                <p>技术干货为主，希望能帮到学习迷途中的你。<br>同时欢迎大佬指点，希望能学到更多不一样的东西~</p>
-                <a href="//www.yuque.com/leowang2007" class="btnDownload yuque-btn">进来坐坐</a>
-            </div>
-            <div class="productShow special">
-                <h3>在这里，寻找属于你的别样精彩</h3>
-                <p>【蓄势待发】社区项目计划</p>
-                <div class="btnDownload disabled">敬请期待</div>
-            </div>
-            <div class="productShow">
-                <h3>Linux虚拟机基础配置（教学资源）</h3>
-                <a href="//www.123pan.com/s/gyPKVv-ztAsd.html" target="_blank" class="btnDownload">下载客户端</a>
+    </nav>
+    <div class=""></div>
+
+    <!-- End Header -->
+
+    <!-- Hero -->
+    <section class="hero-fullwidth hero-video overlay">
+        <!-- Video Back -->
+        <!--    <div data-vide-bg="./img/banner.mp4"-->
+        <!--         data-vide-options="id: &#39;bg-video&#39;loop: true, muted: true, position: &#39;50% 50%&#39;, className: bg-video"-->
+        <!--         style="width: 100%; height: 100%; position: relative;">-->
+        <!--        <div class="bg-video"-->
+        <!--             style="position: absolute; z-index: -1; inset: 0px; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-image: none;">-->
+        <!--            <video autoplay="" loop="" muted=""-->
+        <!--                   style="margin: auto; position: absolute; z-index: -1; visibility: visible; opacity: 1; width: 1265.33px; height: auto;">-->
+        <!--                <source src="./img/banner.mp4"-->
+        <!--                        type="video/mp4">-->
+        <!--            </video>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <div data-vide-bg="./img/banner.jpg"
+            data-vide-options="id: &#39;bg-video&#39;loop: true, muted: true, position: &#39;50% 50%&#39;, className: bg-video"
+            style="width: 100%; height: 100%;">
+            <div class="bg-video"
+                style="z-index: -1; inset: 0; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-image: none;">
+                <img alt="banner" src="img/banner.jpg"
+                    style="margin: auto; z-index: -1; visibility: visible; opacity: 1; width: 100%; height: auto;">
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <p class="footer">
-            ©wmcloud.cc 果冻岛 |
-            <img src="img/beian.png" alt="备案图标">
-            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32010602011473" rel="noreferrer"
-                target="_blank">苏公网安备32010602011473</a> | <a href="https://beian.miit.gov.cn/">苏ICP备2023055708号-2</a>
-        </p>
-    </div>
-    <script type="text/javascript">
-        var textList = [
-            ["创造属于我们的，无与伦比的世界", ""],
-            ["或许我这辈子的梦想都挺蠢的，但这又有什么呢。人总是每过一段时间要寻找一下自己存在的意义不是吗？", "果糖含量"],
-            ["看东西只有用心才能看得清楚，重要的东西用眼睛是看不见的。", "《小王子》"],
-            ["梦想可以大，第一步总是小的。", "影视飓风 Tim"],
-            ["对这世界的不公，先学会忍受，再学会绽放。", "白雨潮"],
-            ["提刀而立，为之四顾，为之踌躇满志，善刀而藏之。", "《庄子 · 内篇 · 养生主》"]
-        ]
-        if (localStorage.getItem('visitedUser'))
-            var randomIndex = Math.floor(Math.random() * textList.length)
-        else {
-            var randomIndex = 0
-            localStorage.setItem("visitedUser", true)
+        <!-- End Video Back -->
+
+        <div class="v-center white" id="typed-container">
+            <!--<h3>瓜云科技</h3>-->
+            <span id="typed">属于每个人的别样精彩</span>
+        </div>
+
+    </section>
+    <!-- End Hero -->
+
+    <section class="what-can-we-do">
+        <div class="section-title-wrapper " style="font-size: 42px; ">
+            我的创意
+        </div>
+
+        <div class="do-things-wrapper">
+            <div class="reason-wrapper">
+                <div class="image">
+                    <img class="image" alt="spark" src="img/spark-banner.svg" />
+                </div>
+                <div class="title">校园云服务平台</div>
+                <div class="desc">
+                    快速布置、提醒作业，数据好统计<br>
+                    上传作业平台统一，错题管理井然有序<br>
+                    教师通知一键送达学生端
+                </div>
+            </div>
+            <div class="reason-wrapper">
+                <div class="image">
+                    <img class="image" alt="showIt" src="img/showit.svg" />
+                </div>
+                <div class="title">疫情防控</div>
+                <div class="desc">
+                    防疫码、行程码快速收集<br>
+                    支持界面定制，彰显组织个性<br>
+                    数据统计更准确
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <footer class="footer-wrapper-2022" id="footer">
+        <div class="legal-information">
+            <div class="info-row">瓜云科技 © 2021</div>
+        </div>
+    </footer>
+
+    <!-- End / footer -->
+
+    <!-- Start Back To Top -->
+    <a id="back-to-top" style="opacity: 0;"><i class="icon ion-chevron-up"></i></a>
+    <!-- End Back To Top -->
+    <!--<script src="res/home.js" type="text/javascript"></script>-->
+
+    <style data-typed-js-css="true" type="text/css">
+        .typed-cursor {
+            opacity: 1;
         }
-        var bannerText = document.getElementById("bannerText")
-        if (randomIndex != 0)
-            bannerText.innerHTML = `${textList[randomIndex][0]}<p>——${textList[randomIndex][1]}</p>`
-        else
-            bannerText.innerHTML = `${textList[randomIndex][0]}<p>${textList[randomIndex][1]}</p>`
+
+        .typed-cursor.typed-cursor--blink {
+            animation: typedjsBlink 0.7s infinite;
+            -webkit-animation: typedjsBlink 0.7s infinite;
+            animation: typedjsBlink 0.7s infinite;
+        }
+
+        @keyframes typedjsBlink {
+            50% {
+                opacity: 0.0;
+            }
+        }
+
+        @-webkit-keyframes typedjsBlink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <script>
+        $(document).ready(function () {//在文档加载完毕后执行
+            $(window).scroll(function () {//开始监听滚动条
+                if ($(document).scrollTop() > 1) {
+                    $('nav').addClass("nav-small")
+                }
+                else {
+                    $('nav').removeClass("nav-small")
+                }
+                if ($(document).scrollTop() > 600)
+                    $("#back-to-top").stop().animate({ opacity: "1" }, 150)
+                else
+                    $("#back-to-top").stop().animate({ opacity: "0" }, 150)
+            })
+            $('#back-to-top').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 700)
+            }
+            )
+        })
     </script>
 </body>
 
