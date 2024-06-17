@@ -262,6 +262,10 @@ h2.down {
     text-align: center;
 }
 
+.footer #upyun {
+    width: 50px;
+}
+
 .footer p {
     font-size: 15px;
     color: #989898;
